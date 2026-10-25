@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jagent</groupId>
+    <artifactId>jagent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>jagent Agent</name>
+    <description>jagent Agent：JavaFX 21 客户端 + Node.js 桥接服务（多模块 Maven 工程）</description>
+
+    <modules>
+        <module>client</module>
+        <module>server</module>
+        <module>scripts</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+        <javafx.version>21.0.5</javafx.version>
+        <langchain4j.version>1.20.0</langchain4j.version>
+    </properties>
+</project>
