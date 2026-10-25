@@ -1,4 +1,4 @@
-# jagent  桌面客户端
+# jagent  桌面客户端  （https://gitee.com/sxpyrgz/jagent.git）
 jagent 是一款功能全面的桌面智能体客户端，集成 CodeBuddy 桥接与 langchain4j 双模型后端，支持工具调用与权限审批，内置多知识库 RAG 检索（暂不完善）、Claude 风格技能加载、工作区文件浏览与代码编辑、cron 定时任务及项目指令注入，所有数据以 JSON 形式本地存储、无需外部数据库，开箱即用、轻量便携；对 Java 开发者而言它更是一份难得的"福音"——基于 langchain4j 直连 OpenAI 兼容接口，让熟悉 Java 生态的工程师无需切换技术栈，就能用最趁手的语言构建智能体应用，双模型后端、工具调用、RAG 知识库、技能加载等能力开箱即用，配合纯 JSON 本地存储、零外部数据库的轻量设计，大幅降低了 AI 应用的开发与部署门槛，让 Java 开发者也能快速拥抱大模型时代。
 - **双模型后端**：CodeBuddy 桥接与 模型直连（OpenAI 兼容）
 - **工具调用**：Read / Write / Bash / Glob / Grep，支持工具权限审批
